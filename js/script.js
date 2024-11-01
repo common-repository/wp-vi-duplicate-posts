@@ -1,0 +1,29 @@
+jQuery(document).ready(function($){
+    //alert('Hello World!');
+  jQuery("#donatehere-comments-wvpd-1").click(function(){
+      jQuery("#donateheretbl-comments-wvpd-1").animate({
+        height:'toggle'
+      });
+  }); 
+  jQuery("#donatehere-comments-wvpd-2").click(function(){
+      jQuery("#donateheretbl-comments-wvpd-2").animate({
+        height:'toggle'
+      });
+  }); 
+  jQuery("#donatehere-comments-wvpd-3").click(function(){
+      jQuery("#donateheretbl-comments-wvpd-3").animate({
+        height:'toggle'
+      });
+  }); 
+   jQuery("#download-comments-wvpd-1").click(function(){
+      jQuery("#downloadtbl-comments-wvpd-1").animate({
+        height:'toggle'
+      });
+  }); 
+  jQuery("#aboutauthor-comments-wvpd").click(function(){
+      jQuery("#aboutauthortbl-comments-wvpd").animate({
+        height:'toggle'
+      });
+  });
+ 
+});
